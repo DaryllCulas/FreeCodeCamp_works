@@ -17,6 +17,7 @@ pop() Method - Another way to change the data in an array is with the .pop() fun
 	
 	const threeArr = [1, 4, 6];
 	const oneDown = threeArr.pop();
+	
 	console.log(oneDown);
 	console.log(threeArr);
 
