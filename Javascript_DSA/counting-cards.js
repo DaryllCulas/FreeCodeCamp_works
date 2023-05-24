@@ -18,10 +18,12 @@ switch(card) {
     count--;
       break;
 }
-let decision = "Hold";
+let decision = "";
   if(count > 0) {
-    decision = "Bet";
-    
+    decision = "Bet";  
+  }
+  else {
+    decision = "Hold"
   }
 return count+" "+decision;
 
