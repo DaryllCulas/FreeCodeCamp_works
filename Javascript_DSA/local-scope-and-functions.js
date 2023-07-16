@@ -1,6 +1,6 @@
 function myLocalScope() {
   // Only change code below this line
-  const myVar = "Hello World";
+  let myVar = "";
   console.log('inside myLocalScope', myVar);
 }
 myLocalScope();
