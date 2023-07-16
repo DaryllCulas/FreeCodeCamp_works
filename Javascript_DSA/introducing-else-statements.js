@@ -6,9 +6,9 @@ function testElse(val) {
     result = "Bigger than 5";
   }
 
- else {
-   result = "5 or Smaller";
- }
+  else {
+    result = "5 or Smaller";
+  }
 
   // Only change code above this line
   return result;
