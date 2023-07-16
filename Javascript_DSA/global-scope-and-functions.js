@@ -1,9 +1,10 @@
 // Declare the myGlobal variable below this line
-const myGlobal = 10;
+let myGlobal = 10;
 
 function fun1() {
   // Assign 5 to oopsGlobal here
   oopsGlobal = 5;
+
 }
 
 // Only change code above this line
