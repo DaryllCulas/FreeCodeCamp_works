@@ -1,5 +1,5 @@
-function functionWithArgs(param1, param2) {
-  console.log(param1 + param2);
+function functionWithArgs(num1, num2) {
+  console.log(num1 + num2);
 }
+
 functionWithArgs(1,2);
-functionWithArgs(7,9);
