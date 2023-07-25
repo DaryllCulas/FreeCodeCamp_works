@@ -1,8 +1,8 @@
 const myDog = {
   // Only change code below this line
-name: "Doggy",
-legs: 4,
-tails: 1,
-friends:["oggy", "cockroaches"]
+  name: "Chowder",
+  legs: 4,
+  tails: 1,
+  friends: ["Coby", "Aspin"]
   // Only change code above this line
 };
