@@ -4,8 +4,8 @@ function cc(card) {
   // Only change code below this line
 switch(card) {
   case 2:
-  case 3: 
-  case 4: 
+  case 3:
+  case 4:
   case 5:
   case 6:
     count++;
@@ -18,15 +18,13 @@ switch(card) {
     count--;
       break;
 }
-let decision = "";
-  if(count > 0) {
-    decision = "Bet";  
-  }
-  else {
-    decision = "Hold"
-  }
-return count+" "+decision;
 
+let playerDecision = "Bet";
+if(count <= 0) {
+  playerDecision = "Hold";
+}
+
+  return `${count} ${playerDecision}`;
   // Only change code above this line
 }
 
