@@ -6,5 +6,5 @@ const testObj = {
 };
 
 // Only change code below this line
-const hatValue = testObj.hat;      // Change this line
-const shirtValue = testObj.shirt;    // Change this line
+const hatValue = testObj.hat;     
+const shirtValue = testObj.shirt;    
