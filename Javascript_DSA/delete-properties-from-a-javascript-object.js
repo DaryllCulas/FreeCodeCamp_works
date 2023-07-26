@@ -8,8 +8,4 @@ const myDog = {
 };
 
 // Only change code below this line
-delete myDog.tails;
-
 delete myDog["tails"];
-
-
