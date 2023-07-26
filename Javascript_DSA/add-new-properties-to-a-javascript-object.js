@@ -5,6 +5,4 @@ const myDog = {
   "friends": ["freeCodeCamp Campers"]
 };
 
-myDog.bark = "Rororororor";
-
-myDog["bark"] = "Rororororor";
+myDog["bark"] = "Rorororororor";
