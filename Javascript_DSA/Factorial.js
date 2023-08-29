@@ -10,3 +10,5 @@ const fac = (n) => {
 }
 
 console.log(fac(5));
+
+// Big-0 = 0(n)
